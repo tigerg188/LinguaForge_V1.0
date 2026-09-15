@@ -1,0 +1,8 @@
+{
+  "name": "LaoDoc Translate - Professional Document Workflow",
+  "description": "High-precision Lao-to-Chinese translator for complex PDF documents, preserving layouts and tables using Gemini's multimodal capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

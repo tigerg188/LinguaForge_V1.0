@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* App styles */
+
+/* Lao-to-Chinese Official Document Layout Replication - Strict Typography */
+.markdown-content,
+.markdown-content * {
+  font-style: normal !important;
+}
+
+/* Line spacing: 1.15 */
+.markdown-content {
+  line-height: 1.15 !important;
+  font-family: 'Times New Roman', 'Phetsarath OT', 'Phetsarath', 'SimSun', 'Songti SC', 'STSong', serif;
+}
+
+.markdown-content p,
+.markdown-content li,
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content blockquote,
+.markdown-content table,
+.markdown-content td,
+.markdown-content th {
+  line-height: 1.15 !important;
+}
+
+/* Headings font stack: Times New Roman (English), Phetsarath OT (Lao), SimHei (Chinese) */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+  font-family: 'Times New Roman', 'Phetsarath OT', 'Phetsarath', 'SimHei', 'Heiti SC', 'Microsoft YaHei', sans-serif !important;
+}
+
+/* Lao script characters & elements */
+:lang(lo),
+.lao-text,
+[lang="lo"] {
+  font-family: 'Phetsarath OT', 'Phetsarath', 'Noto Sans Lao', sans-serif !important;
+}
